@@ -23,7 +23,7 @@ function PopUp(hideOrshow) {
 window.onload = function () {
     setTimeout(function () {
         PopUp('show');
-    }, 2000);
+    }, 3000);
 }
 $("#about").bind("mouseover mouseout", function() {
   var shadow= $("#about");
